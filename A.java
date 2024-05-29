@@ -1,9 +1,8 @@
-package com.jsp.hierarchical;
-//Hierarchical Inheritance
+package com.jsp.multiple_inheritance;
+//Multiple Inheritance
 public class A 
 {
-public void movie()
-{
-	System.out.println("watch KGF 2");
-}
+// Multiple Inheritance is not supported for classes
+	// It is Supported in interfaces
+	
 }
