@@ -1,11 +1,9 @@
-package com.jsp.inheritance;
-// Single Level Inheritance
+package com.jsp.hierarchical;
+//Hierarchical Inheritance
 public class B extends A
 {
-public int b=100;
-public void display()
+public void movie()
 {
-	System.out.println(a);
-	System.out.println(b);
+	System.out.println("Watch KGF");
 }
 }
