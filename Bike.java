@@ -1,9 +1,10 @@
-package com.jsp.multilevel_inheritance;
-//Multi level Inheritance
-public class Bike extends Vehicle
+package com.jsp.AbstractClass;
+
+class Bike extends Vehicle
 {
-	public void gear()
+	@Override
+	void travelling() 
 	{
-		System.out.println("2nd Gear");
+		 System.out.println("Bike Travelling From South Direction ");
 	}
 }
